@@ -9,10 +9,15 @@ To write a program to implement Stochastic Gradient Descent (SGD) Regressor for 
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-1. SGD Regressor – Used gradient descent for linear prediction.
-2. Feature Scaling – Standardized features and target using StandardScaler.
-3. One-Hot Encoding – Converted categorical variables with get_dummies().
-4. Model Evaluation & Plot – Assessed with MSE, R², MAE and visualized predictions.
+1.Initialize Model – Set initial values for weights and bias.
+
+2.Pick One Sample – Select one data point randomly from the dataset.
+
+3.Calculate Error – Find the difference between actual and predicted value.
+
+4.Update Weights – Adjust weights using learning rate and gradient.
+
+5.Repeat Process – Continue for many iterations until the model improves.
 
 ## Program:
 ```
@@ -91,6 +96,11 @@ plt.show()
 
 
 ## Output:
+<img width="593" height="383" alt="image" src="https://github.com/user-attachments/assets/72bc4cf7-f52b-42ce-b088-b09a0e1a5af6" />
+<img width="491" height="510" alt="image" src="https://github.com/user-attachments/assets/5b86d8f4-48cd-461b-b10e-a196585ee6f1" />
+<img width="845" height="123" alt="image" src="https://github.com/user-attachments/assets/9b228b9a-6b3a-433d-a249-e74688a8018d" />
+<img width="341" height="81" alt="image" src="https://github.com/user-attachments/assets/061e857a-3cba-4550-94bd-1e31eca942e1" />
+<img width="682" height="177" alt="image" src="https://github.com/user-attachments/assets/9beeaa1e-3215-47ec-bce8-9efc0513a050" />
 <img width="565" height="453" alt="download" src="https://github.com/user-attachments/assets/dc5acb16-3683-41e5-ab04-ac47ec60594e" />
 
 
