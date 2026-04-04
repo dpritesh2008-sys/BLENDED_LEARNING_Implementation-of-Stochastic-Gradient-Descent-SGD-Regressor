@@ -72,8 +72,8 @@ r2=r2_score(y_test,y_pred)
 mae=mean_absolute_error(y_test,y_pred)
 
 #Print evaluation metrics
-print('Name: Balasurya S')
-print('Reg. No: 25000944')
+print('Name: Ritesh DP')
+print('Reg. No: 25015366')
 print("Mean Squared Error:",mse)
 print("R-squared Score:",r2)
 print("Mean Absolute Error:",mae)
